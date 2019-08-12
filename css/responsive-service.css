@@ -1,0 +1,33 @@
+@media (max-width:800px){
+    div.nav-links{
+        margin: 4% 0;
+    }
+    div.img-wrap .services-header-img{
+        width:100%;
+    }
+    div.service-wrap-center .wrap{
+        width:100%;
+    }
+
+    div.service-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-bottom: 5px;
+    }
+
+    div.service-box{
+        width:47%;
+        padding: 1%;
+        border: 1px solid black;
+        margin: 1% 2% 2% 1%; 
+    }
+    div.service-box a.learn-more{
+        margin-bottom: 4%;
+    }
+}
+@media (max-width:500px){
+    *{
+        border: 1px solid black;
+    }
+}
