@@ -395,9 +395,6 @@ ul li{
 		width:90%;
 	}
 
-	header nav{
-		/* border-bottom: 1px solid black; */
-	}
 	header nav div.nav-links{
 		display:flex;
 		justify-content: center;
