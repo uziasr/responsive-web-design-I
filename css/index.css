@@ -319,7 +319,7 @@ ul li{
 /* for tablets --> (table friendly)*/
 @media(max-width:800px){
 	body{
-		width:80%;
+		width:90%;
 		margin: 0 auto 0 auto;
 	}
 	header nav{
@@ -369,7 +369,7 @@ ul li{
 		font-size:15px;
 	}
 	p{
-		font-size: 13px;
+		font-size: 15px;
 	}
 	.first{
 		display:flex;
@@ -475,6 +475,9 @@ ul li{
 		margin:0 auto;
 		display:flex;
 		flex-direction: column;
-	}
+    }
+    p{
+        font-size: 15px;
+    }
 }
 
