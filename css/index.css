@@ -291,6 +291,11 @@ div.first-footer-wrap{
 	width: 50%;
 }
 
+.last-image{
+    display:flex;
+    align-content: center;
+    align-items: center;
+}
 .services-info-img{
 	width:100%;
 }
