@@ -1,0 +1,98 @@
+@media (max-width:800px){
+    p{
+        font-size: 14px;
+    }
+    div.nav-links{
+        margin: 4% 0;
+    }
+    div.img-wrap .services-header-img{
+        width:100%;
+    }
+    div.service-wrap-center .wrap{
+        width:100%;
+    }
+
+    div.service-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-bottom: 5px;
+    }
+
+    div.service-box{
+        width:47%;
+        padding: 1%;
+        border: 1px solid black;
+        margin: 1% 2% 2% 1%;
+        display: flex; 
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    div.service-box a.learn-more{
+        margin-bottom: 4%;
+    }
+    div.fact-container{
+        width:100%;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-items: center;
+    }
+    div.fact-container-text{
+        width:100%;
+    }
+    ul{
+        display:flex;
+        justify-content: space-around;
+    }
+    ul li{
+        padding:5% 1%;
+        text-align: center;
+    }
+    div.last-image{
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+    }
+    img.services-info-img{
+        width:80%;
+    }
+    div.service-wrap-center div.wrap h2{
+        text-align: center;
+    }
+
+}
+@media (max-width:500px){
+    *{
+        border: 1px solid black;
+    }
+    div.service-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 5px;
+    }
+    div.service-box{
+        width:90%;
+        padding: 1%;
+        border: 1px solid black;
+        margin: 1% 2% 3% 1%;
+        display: flex; 
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    div.service-container{
+        padding:5% 0;
+    }
+    div.service-wrap-center div.wrap h2{
+        text-align: center;
+    }
+    div.fact-container{
+        padding:5%;
+    }
+    .services-info-img{
+        display:none;
+    }
+}
